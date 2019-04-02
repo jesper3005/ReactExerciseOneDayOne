@@ -1,0 +1,46 @@
+**************What is a functional component?****************
+
+A functional component is stateless (Vanilla JavaScript)
+
+A component we can call instead of create many lines of html.
+
+Components let you split the UI into independent, reusable pieces, 
+and think about each piece in isolation.
+
+Functional components should be used over class components if possible.
+
+
+*************What is a Class Component*********************
+
+A class component requires you to extend from React.Component and 
+create a render function which returns a React element. 
+This requires more code but will also give you some benefits.
+
+Class components has state and lifecycles which boths comes from React.
+
+
+*************What is the idea with props******************
+
+Props are single value or objects
+
+Props are used to:
+Pass custom data to your React component.
+Trigger "state" changes (more on this later).
+Use via this.props.reactProp inside component's render() method.
+
+****************************************************************************
+
+Provide a simple example in how you write a Component that accepts props
+
+function Hello(props) {
+    return <h1>Hello, {props.name}</h1>;
+}
+
+*****************************************************************************
+
+Provide a simple example (could be a line from the exercise above)
+that demonstrates how you pass in props to a Component
+
+{} => {props} => {props.property} <-> {props.name}
+
+

@@ -1,0 +1,17 @@
+1. Provide a small explanation for each of the outputs, 
+the purpose of the override, and when you observed it to print.
+
+
+Constructor is the first one to be called.
+
+Then the render is called
+
+componenetDidMount runs after the render.
+
+Then tick is called to change the value of the clock
+and render is called to render it to the componenetDidMount
+
+The last two is looping every 1 second as stated in 
+the componenetDidMount.
+
+Tick --> Render --> Tick --> Render
